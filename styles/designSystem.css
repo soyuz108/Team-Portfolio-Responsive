@@ -156,6 +156,12 @@
   font-weight: bold;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 /* Breakpoints */
 @media (max-width: 1200px) {
   .container {

@@ -1,5 +1,11 @@
 /* sectionOne */
 .sectionOne__left--text {
+  font-family: var(--font-2);
   font-size: var(--body);
   color: var(--color-white-75);
+}
+
+.sectionOne__left--btn {
+  align-self: start;
+  margin-top: 20px;
 }
