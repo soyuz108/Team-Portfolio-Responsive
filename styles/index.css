@@ -1,4 +1,4 @@
-/* sectionOne */
+/* Section One */
 .sectionOne__left--text {
   font-family: var(--font-2);
   font-size: var(--body);
@@ -8,4 +8,29 @@
 .sectionOne__left--btn {
   align-self: start;
   margin-top: 20px;
+}
+
+/* Section Two */
+.sectionTwo {
+  display: grid;
+  gap: 30px;
+  padding: 40px 0;
+}
+.sectionTwo__content--text {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
+
+.sectionTwo__logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.sectionTwo__logo img {
+  justify-self: center;
+  align-self: center;
+}
+
+.sectionTwo__btn {
+  justify-self: center;
 }
