@@ -34,3 +34,15 @@
 .sectionTwo__btn {
   justify-self: center;
 }
+
+/* Section Three */
+.sectionThree__right--text {
+  font-family: var(--font-2);
+  font-size: var(--body);
+  color: var(--color-dark-50);
+}
+
+.sectionThree__right--btn {
+  align-self: start;
+	margin-top: 20px;
+}
