@@ -125,12 +125,6 @@
   .sectionFive__cards {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .footerLinks {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
 }
 
 @media (max-width: 568px) {
